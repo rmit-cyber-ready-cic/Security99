@@ -27,7 +27,7 @@ Team Security99
 
 
 
-**Steps to install:*
+**Steps to install:**
 
 
 - Watch the demo video and ppt (Refer Case Study) to understand the functionality of the application.
