@@ -31,6 +31,6 @@ Team Security99
 
 
 - Watch the demo video and ppt (Refer Case Study) to understand the functionality of the application.
-- To be continued
+- Note: The contents of the "csTemplate.yaml" only covers the basic template for the resources used in developing CodeSecure in a individual manner and does not provide a one tap replication of CodeSecure. Please refer to the demo video to replicate CodeSecure exactly how it was made by team Security99. 
 
 
