@@ -39,5 +39,4 @@ Team Security99
   - Investigate the docker image folder for further information.
 
 - Note: 'test-import-vulnerable-api-master' source code has vulnerabilities in it and can be used for testing purpose.
-- 
 
