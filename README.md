@@ -27,10 +27,14 @@ Team Security99
 
 
 
-**Steps to install:**
+**Installation Steps:**
 
 
-- Watch the demo video and ppt (Refer Case Study) to understand the functionality of the application.
+- Watch the demo video and ppt (Refer Case Study) & the CodeSecure documentation to understand the architecture & working of the application.
 - Note: The contents of the "csTemplate.yaml" only covers the basic template for the resources used in developing CodeSecure in a individual manner and does not provide a one tap replication of CodeSecure. Please refer to the demo video to replicate CodeSecure exactly how it was made by team Security99. Replace '<region>-<AWS Account ID here>' in the document with your region and AWS Account ID
-
+- Docker Image Creation:
+	
+  - Install Docker
+  - In the root folder of the repository, run the "docker build" command. A docker image with name 'codesecure-app:latest' will be created.
+  - Investigate the docker image folder for further information.
 
