@@ -1,0 +1,25 @@
+namespace: codesecure-test
+
+output: /root/codesecure/results.csv
+
+#   Working directory, normally used as the path to the repository.
+working_dir: /root/codesecure
+
+path:
+  # Description:
+  #   Target files used in the analysis.
+  # Example:
+  include:
+    # Absolute path
+    - /root/codesecure
+    # Relative path to `working_dir`
+    #- src/main/java/org/test/Test.java
+    # Unix-style globs
+    - glob(*)
+    - glob(**.java)
+    - glob(src/**/*.py)
+
+checks:
+  - F052
+
+language: EN

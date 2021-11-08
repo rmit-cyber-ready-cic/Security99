@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  code-secure:
+    image: codesecure:latest
+    volumes:
+      - ./bin:/root/bin
+    build:
+      context: .
+      dockerfile: src/Dockerfile
