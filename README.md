@@ -31,10 +31,13 @@ Team Security99
 
 
 - Watch the demo video and ppt (Refer Case Study) & the CodeSecure documentation to understand the architecture & working of the application.
-- Note: The contents of the "csTemplate.yaml" only covers the basic template for the resources used in developing CodeSecure in a individual manner and does not provide a one tap replication of CodeSecure. Please refer to the demo video to replicate CodeSecure exactly how it was made by team Security99. Replace '<region>-<AWS Account ID here>' in the document with your region and AWS Account ID
+- Note: The contents of the "csTemplate.yaml" only covers the basic template for the resources used in developing CodeSecure in a individual manner and does not provide a one tap replication of CodeSecure. Please refer to the demo video to replicate CodeSecure exactly how it was made by team Security99. Replace '(region)-(AWS Account ID here)' in the document with your region and AWS Account ID
 - Docker Image Creation:
 	
   - Install Docker
   - In the root folder of the repository, run the "docker build" command. A docker image with name 'codesecure-app:latest' will be created.
   - Investigate the docker image folder for further information.
+
+- Note: 'test-import-vulnerable-api-master' source code has vulnerabilities in it and can be used for testing purpose.
+- 
 
